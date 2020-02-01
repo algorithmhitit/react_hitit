@@ -19,7 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy":"npm run build",
+    "build": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,6 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "http://insujung.github.io/deploy_test"
+    "homepage": "http://insujung.github.io/react_hitit"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
