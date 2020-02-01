@@ -1,0 +1,50 @@
+.gray {
+  background-color: gray;
+}
+
+.white {
+  background-color : white;
+}
+
+.red {
+  background-color: #FE4B74;
+}
+.black {
+  background-color: #373B44;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0; 
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
+}
+
+section {
+  width: 100%;
+  padding: 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+}
+
+.content {
+  min-height: 10em;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3em;
+  display: block;
+  color: white;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #C3CAD9;
+}
